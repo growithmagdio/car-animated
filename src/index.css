@@ -1,0 +1,5 @@
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: #0A1115; color-scheme: dark; }
+body { margin: 0; background: #0A1115; -webkit-font-smoothing: antialiased; }
+img { max-width: 100%; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
